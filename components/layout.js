@@ -31,15 +31,16 @@ export default function Layout({ children, home }) {
               src="/images/profile.jpg"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
+              
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`}>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/profile.gif"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />

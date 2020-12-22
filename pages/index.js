@@ -13,11 +13,16 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong>Henrique</strong>. I’m a software engineer. You can contact me on{' '}
-          <a href="https://www.linkedin.com/in/henriquesilvadev" target="_blank">LinkdIn</a> |
-          <a href="https://github.com/henriquehsilva" target="_blank"> Github</a> |
-          <a href="https://twitter.com/henriquesdev" target="_blank"> Twitter</a> |
-          <a href="https://www.instagram.com/henriquesilvadev" target="_blank"> Instagram</a>.
+          Hello, I’m <strong className={`${utilStyles.h5MktgFluid} ${utilStyles.h4SmMktgFluid} ${utilStyles.textGrayMktg} ${utilStyles.lhCondensed} ${utilStyles.textSemiboldMktg} ${utilStyles.mb5Fluid}`} >Henrique</strong>. I’m a software engineer. You can contact me on{' '}
+          <a className={`${utilStyles.textGradientPurpleCoral } ${utilStyles.noWrap}`} href="https://www.linkedin.com/in/henriquesilvadev" target="_blank">LinkdIn</a> |
+          <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://github.com/henriquehsilva" target="_blank"> Github</a> |
+          <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://twitter.com/henriquesdev" target="_blank"> Twitter</a> |
+          <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://www.instagram.com/henriquesilvadev" target="_blank"> Instagram</a>.
+        </p>
+      </section>
+      <section className={utilStyles.headingMd}>
+        <p>
+        Programmer, mathematician, and eternal learner in search of meaning in the world through sketches of calculation and lines of code.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
