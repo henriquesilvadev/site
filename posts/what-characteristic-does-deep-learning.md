@@ -5,7 +5,7 @@ date: "2020-12-23"
 
 First, it necessary to understand that is artificial intelligence, machine learning, and deep learning.
 
-In the image is possible to see the relation between AI, ML, and deep learning. 
+In the image is possible to see the relation between AI, ML, and RNA. 
 
 ![](https://storage.googleapis.com/blog-posts/what-deep-learning/deeplearning.png)
 
