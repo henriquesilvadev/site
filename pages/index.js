@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I’m <strong className={`${utilStyles.h5MktgFluid} ${utilStyles.h4SmMktgFluid} ${utilStyles.textGrayMktg} ${utilStyles.lhCondensed} ${utilStyles.textSemiboldMktg} ${utilStyles.mb5Fluid}`} >Henrique</strong>. I’m a software engineer. You can contact me on{' '}
+        👨🏿‍ Olá, sou o <strong className={`${utilStyles.h5MktgFluid} ${utilStyles.h4SmMktgFluid} ${utilStyles.textGrayMktg} ${utilStyles.lhCondensed} ${utilStyles.textSemiboldMktg} ${utilStyles.mb5Fluid}`} >Henrique 🖖🏽</strong>, estudante e engenheiro de software.<br />
           <a className={`${utilStyles.textGradientPurpleCoral } ${utilStyles.noWrap}`} href="https://www.linkedin.com/in/henriquesilvadev" target="_blank">LinkdIn</a> |
           <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://github.com/henriquehsilva" target="_blank"> Github</a> |
           <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://twitter.com/henriquesdev" target="_blank"> Twitter</a> |
@@ -21,12 +21,25 @@ export default function Home({ allPostsData }) {
         </p>
       </section>
       <section className={utilStyles.headingMd}>
-        <p>
-        Programmer, mathematician, and eternal learner in search of meaning in the world through sketches of calculation and lines of code.
-        </p>
+      <b> 👨🏽‍🚀 Principais intereces</b>
+      <ul>
+        <li>Matemática,</li>
+        <li>Programação,</li>
+        <li>Ciência de Dados,</li>
+        <li>Artificial Intelligence,</li>
+        <li>Cyber Segurança,</li>
+        <li>Cultura ágil.</li>        
+      </ul>
+      <b> 🛸 Em que costumo trabalhar</b>
+      <ul>
+        <li>Projetos não tradicionais,</li>
+        <li>Suporte educacional fora dos padrões,</li>
+        <li>Criação de desastres eletrônicos.</li>
+      </ul>
+
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}> 🗞 Últimas postagens</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
