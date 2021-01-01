@@ -1,5 +1,5 @@
 ---
-title: "Principal diferença entre deep learning vs machine learning?!"
+title: "Volume dados, deep learning vs machine learning?!"
 date: "2020-12-23"
 ---
 
