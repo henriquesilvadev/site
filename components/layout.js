@@ -28,10 +28,9 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-              
+              alt={name}              
             />
             <h1 className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`}>{name}</h1>
           </>
@@ -40,7 +39,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.gif"
+                  src="/images/profile.png"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
