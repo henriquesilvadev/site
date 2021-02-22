@@ -14,8 +14,8 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
         👨🏿‍ Olá, sou o <strong className={`${utilStyles.h5MktgFluid} ${utilStyles.h4SmMktgFluid} ${utilStyles.textGrayMktg} ${utilStyles.lhCondensed} ${utilStyles.textSemiboldMktg} ${utilStyles.mb5Fluid}`} >Henrique 🖖🏽</strong>, estudante e engenheiro de software.<br />
-          <a className={`${utilStyles.textGradientPurpleCoral } ${utilStyles.noWrap}`} href="https://www.linkedin.com/in/henriquesilvadev" target="_blank">LinkdIn</a> |
-          <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://github.com/henriquehsilva" target="_blank"> Github</a> |
+          <a className={`${utilStyles.textGradientPurpleCoral } ${utilStyles.noWrap}`} href="https://www.linkedin.com/in/henriquesilvadev" target="_blank">LinkedIn</a> |
+          <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://github.com/henriquehsilva" target="_blank"> GitHub</a> |
           <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://twitter.com/henriquesdev" target="_blank"> Twitter</a> |
           <a className={`${utilStyles.textGradientPurpleCoral} ${utilStyles.noWrap}`} href="https://www.instagram.com/henriquesilvadev" target="_blank"> Instagram</a>.
         </p>

@@ -1,7 +1,7 @@
----
+<!-- ---
 title: "Volume dados, deep learning vs machine learning?!"
 date: "2020-12-23"
----
+--- -->
 
 Primeiro, é necessário entender o que é inteligência artificial, aprendizado de máquina e aprendizado profundo.
 
