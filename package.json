@@ -6,7 +6,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "node": "12",
     "classnames": "2.3.1",
     "date-fns": "2.28.0",
     "gray-matter": "4.0.3",
